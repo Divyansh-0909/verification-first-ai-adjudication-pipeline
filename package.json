@@ -1,0 +1,19 @@
+{
+  "name": "verification-first-ai-adjudication-pipeline",
+  "version": "0.1.0",
+  "description": "Evidence-backed AI reviews with deterministic verification, policy gates, human review, and shadow-mode audits.",
+  "private": true,
+  "type": "module",
+  "exports": "./src/index.js",
+  "scripts": {
+    "test": "node --test",
+    "demo": "node examples/support-return-dispute.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "openai": "^7.10.0",
+    "zod": "^4.4.3"
+  }
+}
